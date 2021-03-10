@@ -20,13 +20,13 @@
 @media screen and (max-width: 992px) {
   .blog-slider {
     max-width: 680px;
-    height: 400px;
+    height: 500px;
   }
 }
 @media screen and (max-width: 768px) {
   .blog-slider {
     min-height: 500px;
-    height: auto;
+    /*height: auto;*/
     margin: 180px auto;
   }
 }
