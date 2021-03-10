@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
+    <meta name="description" content="Projeto para treinar e praticar" />
+    <meta name="author" content="Vagner Bom Jesus" />
     <title>DS AGENCY</title>
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/img/logo.jpg" />
@@ -25,13 +25,12 @@
     <link href="css/styles.css" rel="stylesheet" />
     <link href="css/style-card.css" rel="stylesheet" />
     <link href="css/style-social.css" rel="stylesheet" />
-
+    <link href="css/novidades.css" rel="stylesheet" />
     <script>
-        function funcao1()
-        {
-        alert("Esta função está em desenvolvimento!!\n");
+        function funcao1() {
+            alert("Esta função está em desenvolvimento!!\n");
         }
-        </script>
+    </script>
 </head>
 
 <body id="page-top">
@@ -47,6 +46,7 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Sobre-nós</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Galeria</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#artistas">Artistas</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#videos">Videos</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contacto</a></li>
                 </ul>
             </div>
@@ -287,30 +287,86 @@
     </section>
 
     <!-- Call to action-->
-    <section class="page-section bg-dark text-white">
+    <section class="page-section bg-dark text-white" id="videos">
 
 
-        
         <!--
         <div class="embed-container">
             <iframe width="100%" height="100%" src="https://www.youtube.com/embed/WFqVXMQfgKE?start=46&autoplay=1&mute=1&loop=1&controls=0"></iframe>
 
           </div>-->
         <div class="container text-center">
-            <h2 class="mb-4">Os nossos maiores Sucessos!!</h2>
-            <a class="btn btn-light btn-xl" href="ver.html">Ver</a>
 
+            <!--<h2 class="mb-4">Os nossos maiores Sucessos!!</h2>
+            <a class="btn btn-light btn-xl" href="ver.html">Ver</a>-->
+            <h2 class="text-center mt-0">Videos</h2>
+            <hr class="divider my-4" />
+            <div class="blog-slider">
+                <div class="blog-slider__wrp swiper-wrapper">
+                    <div class="blog-slider__item swiper-slide">
+                        <div class="blog-slider__img">
+                            <iframe width="100%" height="100%"
+                                src="https://www.youtube.com/embed/q9HAE9w66qw?start=46&autoplay=1&mute=1&loop=1&controls=0"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="blog-slider__content">
+                            <span class="blog-slider__code">Estreou a 09/01/2021</span>
+                            <div class="blog-slider__title">“YES” DRILL DIABÓLICO </div>
+                            <div class="blog-slider__text">BREEZY MDL x FRANZ1S x AG FLYZER x ASPC </div>
+                            <a href="https://www.youtube.com/watch?v=q9HAE9w66qw" class="blog-slider__button">Ver
+                                Completo</a>
+                        </div>
+                    </div>
+                    <div class="blog-slider__item swiper-slide">
+                        <div class="blog-slider__img">
+                            <iframe width="100%" height="100%"
+                                src="https://www.youtube.com/embed/oMqIROO8u5s?start=46&autoplay=1&mute=1&loop=1&controls=0"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="blog-slider__content">
+                            <span class="blog-slider__code">Estreou a 06/12/2020</span>
+                            <div class="blog-slider__title">SLOWLY</div>
+                            <div class="blog-slider__text">DWD ON THE BEAT x BREEZY MDL x JOKKA MDL x AG FLYZER </div>
+                            <a href="https://www.youtube.com/watch?v=oMqIROO8u5s" class="blog-slider__button">Ver
+                                Completo</a>
+                        </div>
+                    </div>
+
+                    <div class="blog-slider__item swiper-slide">
+                        <div class="blog-slider__img">
+                            <iframe width="560" height="315"
+                                src="https://www.youtube.com/embed/WFqVXMQfgKE?start=46&autoplay=1&mute=1&loop=1&controls=0"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="blog-slider__content">
+                            <span class="blog-slider__code">Estreou a 20/10/2020</span>
+                            <div class="blog-slider__title">Bula</div>
+                            <div class="blog-slider__text">DWD ON THE BEAT x AG FLYZER</div>
+                            <a href="https://www.youtube.com/watch?v=WFqVXMQfgKE" class="blog-slider__button">Ver
+                                Completo</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="blog-slider__pagination"></div>
+            </div>
         </div>
     </section>
     <!-- Contact-->
     <section class="page-section" id="contact">
         <h2 class="text-center mt-0">Mídias Sociais</h2>
-        <hr class="divider my-4" />
-        <div class="container">
-            <div class="midia">
+        <hr class="divider my-0" />
+        <div class="container ">
+            <div class="midia row ">
 
-                <ul class="icon-list">
-                    <li class="icon-item">
+                <ul class="icon-list column">
+                    <li class="icon-item ">
                         <a href="mailto:ds_agency@hotmail.com" class="icon-link icont"><i class="fas fa-at"></i></a>
                     </li>
 
@@ -318,20 +374,24 @@
                         <a href="https://www.facebook.com/dsagency2k18/" class="icon-link iconf"><i
                                 class="fab fa-facebook-f"></i></a>
                     </li>
-                    <li class="icon-item">
+                    <li class="icon-item ">
                         <!--https://whats.link/agencyds"-->
-                        <a href="https://wa.me/+351969005028" class="icon-link iconw"><i
-                                class="fab fa-whatsapp"></i></a>
+                        <a href="https://api.whatsapp.com/send?phone=351969005028&text=Boas%20DS%20AGENCY.%20TENHO%20INTERESSE%20NO%20VOSSO%20SERVI%C3%87O."
+                            class="icon-link iconw"><i class="fab fa-whatsapp"></i></a>
                     </li>
 
-                    <li class="icon-item">
+                    <li class="icon-item ">
                         <a href="https://www.youtube.com/channel/UCTZAJ55LGD5gieWaN07s9fg" class="icon-link icony"><i
                                 class="fab fa-youtube"></i></a>
                     </li>
 
-                    <li class="icon-item">
+                    <li class="icon-item ">
                         <a href="https://www.instagram.com/agency_ds/" class="icon-link iconi"><i
                                 class="fab fa-instagram"></i></a>
+                    </li>
+                    <li class="icon-item ">
+                        <a href="https://open.spotify.com/artist/agency_ds/" class="icon-link iconw"><i
+                                class="fab fa-spotify"></i></a>
                     </li>
 
                 </ul>
@@ -391,7 +451,19 @@
         );
 
 
-
+        var swiper = new Swiper('.blog-slider', {
+            spaceBetween: 30,
+            effect: 'fade',
+            loop: true,
+            mousewheel: {
+                invert: false,
+            },
+            // autoHeight: true,
+            pagination: {
+                el: '.blog-slider__pagination',
+                clickable: true,
+            }
+        });
 
     </script>
     <script>
